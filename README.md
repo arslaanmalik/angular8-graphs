@@ -25,3 +25,13 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Resolve Angular Upgrade issue
+
+ERROR in node_modules/@c8y/ngx-components/core/forms/schema-form.component.d.ts:2:34 - error TS2307: Cannot find module '@angular/upgrade/static'.
+
+2 import { UpgradeComponent } from '@angular/upgrade/static';
+
+RESOLVE THIS BY DOING
+
+npm  i @angular/upgrade
